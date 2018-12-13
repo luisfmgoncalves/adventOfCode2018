@@ -28,7 +28,6 @@ public final class Day6 {
         Grid grid = new Grid(10);
         grid.storeCoordinates(getInput());
         grid.fillGridWithManhattenDistance();
-//        grid.print();
         grid.gatherValuesForPartOne();
     }
 
@@ -37,7 +36,6 @@ public final class Day6 {
         Grid grid = new Grid(600);
         grid.storeCoordinates(getInput());
         grid.fillGrid(10000);
-//        grid.print();
         grid.gatherValuesForPartTwo();
     }
 

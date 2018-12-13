@@ -33,14 +33,4 @@ public final class Node {
     private int getTotalMetadata() {
         return metadata.stream().mapToInt(value -> value).sum();
     }
-
-//    public final class Header {
-//        public Integer numberOfChildNodes;
-//        public Integer numberOfMetaDataEntries;
-//
-//        public Header(Integer numberOfChildNodes, Integer numberOfMetaDataEntries) {
-//            this.numberOfChildNodes = numberOfChildNodes;
-//            this.numberOfMetaDataEntries = numberOfMetaDataEntries;
-//        }
-//    }
 }
